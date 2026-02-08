@@ -1,3 +1,4 @@
-# todo.py
-def add_task(task):
-    print(f"Task added: {task}")
+def view_tasks(tasks):
+    for i, task in enumerate(tasks, 1):
+        print(f"{i}. {task}")
+
